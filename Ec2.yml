@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Creating a EC2 instance using Cloud formation Template
+
+
+
+Resources: 
+  Instances:
+    Type: AWS::EC2::Instance
+    Properties:
+
